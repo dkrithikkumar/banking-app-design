@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "PaulGrotesk-Bold-Trail";
+    src: url("fonts/PaulGrotesk-Bold-Trail.otf");
+}
+
+@font-face {
+    font-family: "PaulGrotesk-Regular-Trail";
+    src: url("fonts/PaulGrotesk-Regular-Trail.otf");
+}
+
+#last-page {
+    max-width: 1550px;
+    margin: 0 auto;
+    height: 700px;
+}
+
+#last-page #header-text-4 {
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+#header-text-4 p {
+    font-size: clamp(16px, 4vw, 24px);
+    color: #443EFF;
+    font-family: "PaulGrotesk-Regular-Trail";
+    text-align: center;
+}
+
+#header-text-4 h2 {
+    text-align: center;
+    font-size: clamp(30px, 5vw, 48px);
+    font-family: "PaulGrotesk-Regular-Trail";
+}
+
+/* Guide Box */
+
+#guides-box {
+    width: min(100%, 1150px);
+    height: 370px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+/* #guides-box::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#guides-box::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+#guides-box::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+} */
+
+#guide-box-1, #guide-box-2, #guide-box-3 {
+    width: max(29%, 270px);
+    height: 370px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 22px;
+}
+
+#guide-box-1 img, #guide-box-2 img, #guide-box-3 img {
+    width: 100%;
+    height: 245px;
+    border: 3px solid white;
+    box-shadow: -8px 8px #c8c7f7;
+}
+
+#guide-box-1 .img-text, #guide-box-2 .img-text, #guide-box-3 .img-text {
+    background-color: white;
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: 13px;
+    width: 50px;
+    height: 25px;
+    padding-left: 3px;
+    padding-top: 5px;
+    color: #7873ff;
+    position: relative;
+    bottom: 40px;
+    left: 2px;
+}
+
+#guide-box-1 p, #guide-box-2 p, #guide-box-3 p {
+    margin-top: 10px;
+    font-size: clamp(18px, 2vw, 24px);
+    font-family: "PaulGrotesk-Bold-Trail";
+    position: relative;
+    bottom: 28px;
+    white-space: normal;
+}
+
+/* Footer */
+
+footer {
+    width: 1600px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #footer-box-1 {
+    width: 200px;
+    height: 100px;
+    margin-left: 9%;
+    position: relative;
+    top: 25%;
+}
+
+#footer-box-1 p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    color: #565660;
+    position: relative;
+    left: 25px;
+    top: 5px;
+    font-size: 16px;
+}
+
+#footer-box-1 #social-logos-box {
+    display: flex;
+    width: 100px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    justify-content: space-between;
+}
+
+#social-logos-box img {
+    width: 20px;
+    height: 20px;
+}
+
+footer #footer-box-2 {
+    width: 175px;
+    height: 150px;
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer #footer-box-2 a {
+    text-decoration: none;
+}
+
+footer #footer-box-2 h2 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: 16px;
+    color: #565660;
+    margin-bottom: 10px;
+    position: relative;
+    top: 8px;
+    margin-bottom: 10px;
+}
+
+footer #footer-box-2 p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: 16px;
+    color: #565660;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+footer #footer-box-2 p:hover {
+    color: #443EFF;
+    transition: 0.2s;
+    font-weight: 900;
+}
+
+footer #footer-box-3 {
+    text-decoration: none;
+    width: 175px;
+    height: 125px;
+    position: relative;
+    top: 25%;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer #footer-box-3 a {
+    text-decoration: none;
+}
+
+footer #footer-box-3 h2 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: 16px;
+    color: #565660;
+    position: relative;
+    top: 10px;
+    margin-bottom: 30px;
+}
+
+footer #footer-box-3 p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: 16px;
+    color: #565660;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    position: relative;
+    bottom: 17px;
+}
+
+footer #footer-box-3 p:hover {
+    color: #443EFF;
+    transition: 0.2s;
+    font-weight: 900;
+}
+
+footer #footer-box-4 {
+    text-decoration: none;
+    width: 175px;
+    height: 125px;
+    position: relative;
+    top: 25%;
+    right: 9%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer #footer-box-4 a {
+    text-decoration: none;
+}
+
+footer #footer-box-4 h2 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: 16px;
+    color: #565660;
+    position: relative;
+    top: 10px;
+    margin-bottom: 15px;
+}
+
+footer #footer-box-4 p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: 16px;
+    color: #565660;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+footer #footer-box-4 p:hover {
+    color: #443EFF;
+    transition: 0.2s;
+    font-weight: 900;
+}

@@ -1,0 +1,463 @@
+@font-face {
+    font-family: "PaulGrotesk-Bold-Trail";
+    src: url("fonts/PaulGrotesk-Bold-Trail.otf");
+}
+
+@font-face {
+    font-family: "PaulGrotesk-Regular-Trail";
+    src: url("fonts/PaulGrotesk-Regular-Trail.otf");
+}
+
+
+/* Table Page */
+
+.table-page {
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 850px;
+}
+
+.table-page #header-text-2 {
+    width: 67%;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    top: 170px;
+}
+
+#header-text-2 h2 {
+    text-align: center;
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: clamp(32px, 5vw, 48px);
+    color: #000000
+}
+
+#header-text-2 p {
+    text-align: center;
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: clamp(16px, 4vw, 24px);
+    color: #565660;
+    margin-top: 10px;
+}
+
+
+/* Comparison Table */
+
+.table-page #comparison-table {
+    width: 832px;
+    /* border: 2px solid black; */
+    height: 377px;
+    margin: 0 auto;
+    position: relative;
+    top: 260px;
+    font-size: 18px;
+    font-family: "PaulGrotesk-Regular-Trail";
+    display: flex;
+}
+
+#comparison-table #column-1 {
+    width: 20%;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 6px;
+}
+
+#column-1 #column-header-1 {
+    opacity: 0.3;
+    position: relative;
+    top: 5px;
+}
+
+#column-1 p {
+    position: relative;
+    bottom: 7px;
+}
+
+#column-1 hr {
+    width: 100%;
+    border-top: 1.5px solid #DBDBDF;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+#comparison-table #column-2 {
+    background-color: #443EFF;
+    color: #ffffff;
+    width: 35%;
+    height: 337px;
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px rgba(130, 136, 148, 0.14), 0px 8px 20px rgba(130, 136, 148, 0.16);
+    border-radius: 7px;
+    z-index: 10;
+}
+
+#column-2 #column-header-2 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    position: relative;
+    top: 18px;
+}
+
+#column-2 p {
+    padding-left: 10%;
+    position: relative;
+    top: 5px;
+}
+
+#column-2 hr {
+    width: 100%;
+    border-top: 1.5px solid #817DFF;
+    opacity: 0.4;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    position: relative;
+    top: 13.5px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+#comparison-table #column-3 {
+    width: 25%;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 2px rgba(130, 136, 148, 0.48), 0px 8px 20px rgba(130, 136, 148, 0.16);
+    border-radius: 7px;
+    position: relative;
+    top: 6.5px;
+    right: 5px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+#column-3 #column-header-3 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    position: relative;
+    top: 5px;
+}
+
+#column-3 p {
+    padding-left: 10%;
+    position: relative;
+    bottom: 8px;
+}
+
+#column-3 hr {
+    width: 100%;
+    border-top: 1.5px solid #A5A5AF;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    opacity: 0.3;
+}
+
+#comparison-table #column-4 {
+    width: 25%;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 2px rgba(130, 136, 148, 0.48), 0px 8px 20px rgba(130, 136, 148, 0.16);
+    border-radius: 7px;
+    position: relative;
+    top: 6.5px;
+    right: 12px;
+    background-color: #ffffff;
+}
+
+#column-4 #column-header-4 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    position: relative;
+    top: 5px;
+}
+
+#column-4 p {
+    padding-left: 10%;
+    position: relative;
+    bottom: 8px;
+}
+
+#column-4 hr {
+    width: 97%;
+    border-top: 1.5px solid #A5A5AF;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    opacity: 0.3;
+}
+
+
+/* Comparison Table ends here */
+
+
+/* Future Designer Page */
+
+#future-designer-page {
+    max-width: 1550px;
+    height: 558px;
+    margin: 0 auto;
+    background-color: #FFE2E8;
+    display: flex;
+}
+
+.person-box {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.person-box h2 {
+    font-size: 105px;
+    color: #ffffff;
+    font-family: "PaulGrotesk-Bold-Trail";
+    position: relative;
+    top: 63%;
+    margin-left: 3.5%;
+    line-height: 85px;
+    z-index: 3;
+}
+
+.bg-image {
+    background-image: url(images/img-leap-future-designer.svg);
+    background-repeat: no-repeat;
+    background-position: 100px 0;
+    width: 100%;
+    /* border: 3px solid red; */
+    height: 100%;
+    transform: translateY(-220px);
+}
+
+#review-box {
+    width: 50%;
+    height: 210px;
+    position: relative;
+    margin-top: 175px;
+}
+
+#review-box p {
+    font-size: clamp(20px, 1.8vw, 28px);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#review-box h4 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: clamp(22px, 1.8vw, 28px);
+    margin-top: 15px;
+}
+
+
+/* FAQ Box */
+
+#faq-box {
+    max-width: 1550px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F1EBEB;
+}
+
+#faq-box #faq-header-text-box {
+    width: 70%;
+    margin-left: 12%;
+    position: relative;
+    top: 80px;
+}
+
+#faq-header-text-box p {
+    font-size: 24px;
+    color: #443EFF;
+    font-family: "PaulGrotesk-Regular-Trail";
+}
+
+#faq-header-text-box h2 {
+    font-size: clamp(30px, 5vw, 48px);
+    font-family: "PaulGrotesk-Bold-Trail";
+}
+
+
+/* Questions Grid Container */
+
+.question-grid-container {
+    width: 75%;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 120px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-grid-container .left-pane,
+.right-pane {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+}
+
+.question-grid-container .contentBx {
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 0;
+    margin-bottom: 3.5%;
+}
+
+.question-grid-container .contentBx .questions {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: 20px;
+}
+
+.question-grid-container .contentBx .questions img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    margin-right: 3%;
+    transition: 0.5s;
+}
+
+.question-grid-container .contentBx .answers {
+    font-size: 20px;
+    color: #565660;
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 4.5%;
+    position: relative;
+    font-family: "PaulGrotesk-Regular-Trail";
+    max-height: 0;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.question-grid-container .contentBx.active .answers {
+    max-height: 200px;
+}
+
+.question-grid-container .contentBx.active .questions {
+    color: #443EFF;
+}
+
+.question-grid-container .contentBx.active .questions img {
+    transition: 0.5s;
+    transform: rotate(90deg);
+}
+
+
+/* Question Grid Container ends here */
+
+
+/* Contact Box*/
+
+#ask-a-specialist-box {
+    width: 78%;
+    height: 220px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    bottom: 380px;
+    /* transform: translateY(-150px); */
+}
+
+#left-box {
+    width: 45%;
+    height: 100px;
+    margin-top: 4%;
+}
+
+#left-box h2 {
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: clamp(16px, 4vw, 24px);
+    margin-bottom: 10px;
+}
+
+#left-box p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: clamp(14px, 4vw, 18px);
+    line-height: 30px;
+}
+
+#right-box {
+    width: 42%;
+    height: 100px;
+    margin-top: 5%;
+}
+
+#right-box #mail {
+    display: flex;
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: 18px;
+}
+
+#mail .mail-txt-bx {
+    display: flex;
+    flex-direction: column;
+}
+
+#mail img {
+    margin-right: 5%;
+}
+
+#mail a {
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    top: 5px;
+}
+
+#mail p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    display: none;
+}
+
+#right-box hr {
+    width: 100%;
+    margin-top: 3%;
+    border-top: 1.8px solid #F1EDED;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+#right-box #contact-number {
+    display: flex;
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+#mail .cn-txt-bx {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-number img {
+    margin-right: 5%;
+}
+
+#contact-number a {
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+}
+
+#contact-number p {
+    font-family: "PaulGrotesk-Regular-Trail";
+    display: none;
+}

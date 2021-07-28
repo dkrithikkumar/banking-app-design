@@ -1,0 +1,45 @@
+/* Media Queries - Mobile Design */
+
+@media all and (max-width:700px) {
+    /* Header */
+    .lf-logo-box {
+        margin-left: 5%;
+    }
+    nav button {
+        right: 12%;
+    }
+    /* Header ends here */
+    /* Home Page */
+    /* Home Page ends here*/
+    /* Statistics Container */
+    .stats-container {
+        margin: 0 4%;
+    }
+    .stats p {
+        width: 90px;
+    }
+    /* Statistics Container ends here */
+    /* Video Page */
+    .video-page {
+        height: 410px;
+    }
+    /* Video Page ends here */
+    /* FAQ section */
+    #faq-header-text-box {
+        margin-left: 50px;
+    }
+    #faq-header-text-box p {
+        display: none;
+    }
+    /* Contact Box */
+    #ask-a-specialist-box {
+        height: 430px;
+        position: relative;
+        bottom: 90px;
+    }
+    #mail {
+        margin-bottom: 30px;
+    }
+    /* Contact Box ends here */
+    /* FAQ section ends here */
+}

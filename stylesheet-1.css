@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@font-face {
+    font-family: "PaulGrotesk-Bold-Trail";
+    src: url("fonts/PaulGrotesk-Bold-Trail.otf");
+}
+
+@font-face {
+    font-family: "PaulGrotesk-Regular-Trail";
+    src: url("fonts/PaulGrotesk-Regular-Trail.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Header */
+
+header {
+    max-width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: 14vh;
+    align-items: center;
+}
+
+.lf-logo-box {
+    width: 154px;
+    margin-left: 14%;
+    margin-right: 35%;
+}
+
+.lf-logo-box img {
+    position: relative;
+    top: 5px;
+    width: 154px;
+    height: 33.05px;
+}
+
+nav {
+    width: 35vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #565660;
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: 14px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+}
+
+.icon.cancel-btn {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    color: #ffffff;
+}
+
+nav button {
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #443EFF;
+    border: none;
+    width: min(100px, 40%);
+    color: #ffffff;
+    height: 30px;
+    font-family: "PaulGrotesk-Regular-Trail";
+    display: none;
+    text-align: center;
+}
+
+.icon.menu-btn {
+    position: absolute;
+    color: #443EFF;
+    right: 5%;
+    top: 3%;
+}
+
+
+/* Header section ends here */
+
+
+/* Home Page */
+
+.home-container {
+    max-width: 1550px;
+    background: linear-gradient(0deg, #E0EAF3, #E0EAF3);
+    height: 725px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-container .header-text {
+    position: relative;
+    margin-left: 16%;
+    top: 15%;
+}
+
+.header-text p {
+    font-size: clamp(18px, 2vw, 20px);
+    font-family: "PaulGrotesk-Regular-Trail";
+    color: #443EFF;
+}
+
+.header-text h1 {
+    font-size: clamp(30px, 5vw, 70px);
+    line-height: 75px;
+    overflow-y: hidden;
+    font-family: "PaulGrotesk-Bold-Trail";
+    color: #1D1A6E;
+    font-weight: 1000;
+    letter-spacing: -1.5px;
+}
+
+
+/* home-container -> features-box */
+
+.features-box {
+    position: relative;
+    background-color: #ffffff;
+    width: 400px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-left: 16%;
+    top: 19%;
+}
+
+.feature-1,
+.feature-2,
+.feature-3 {
+    display: inline-flex;
+}
+
+.feature-1 img,
+.feature-2 img,
+.feature-3 img {
+    margin-top: 24px;
+    margin-left: 25px;
+}
+
+.feature-1 p,
+.feature-2 p,
+.feature-3 p {
+    margin-top: 27.41px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #1D1A6E;
+    font-family: "PaulGrotesk-Regular-Trail";
+    border-bottom: 1px dashed #06051F;
+    text-decoration: none;
+}
+
+
+/* features-box ends here */
+
+.loan-offer-button {
+    width: 400px;
+    height: 100px;
+    margin-left: 16%;
+    position: relative;
+    top: 23%;
+}
+
+.loan-offer-button button {
+    color: #ffffff;
+    border: none;
+    position: relative;
+    width: 400px;
+    height: 56px;
+    font-family: "PaulGrotesk-Regular-Trail";
+    background-color: #443EFF;
+    box-shadow: 0px 0px 1px rgba(130, 136, 148, 0.26), 0px 2px 4px rgba(130, 136, 148, 0.33);
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.loan-offer-button button:hover {
+    background-color: #6b66ff;
+    transition: 0.3s;
+}
+
+.loan-offer-button p {
+    font-size: 14px;
+    font-family: "PaulGrotesk-Regular-Trail";
+    color: #888897;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.lf-girl-img-resp {
+    display: none;
+}
+
+.leapfinance-girl-image {
+    height: 705px;
+    width: 670px;
+    position: relative;
+    left: 45%;
+    bottom: 62.4%;
+}
+
+
+/* Sponsors Box */
+
+.sponsors-box {
+    max-width: 1550px;
+    margin: 0 auto;
+    height: 162px;
+    display: flex;
+    align-items: center;
+}
+
+.sponsors-container {
+    /* border: 2px solid black; */
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.sponsors-container div {
+    margin: 0 15px;
+}
+
+.yourstory {
+    font-size: clamp(10px, 2vw, 14px);
+    color: #565660;
+    font-family: "PaulGrotesk-Regular-Trail";
+    width: 210px;
+}
+
+.yourstory p {
+    margin-top: 10px;
+}
+
+.yourstory img {
+    margin-top: 40px;
+    width: 106.89px;
+    height: 21.23px;
+}
+
+.moneycontrol {
+    width: 135px;
+}
+
+.moneycontrol img {
+    margin-top: 38px;
+    width: 135px;
+    height: 28.43px;
+}
+
+.techcrunch {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    width: 210px;
+    color: #565660;
+}
+
+.techcrunch p {
+    margin-top: 10px;
+}
+
+.techcrunch img {
+    margin-top: 38px;
+    width: 151.1px;
+    height: 21.23px;
+}
+
+.economictimes {
+    width: 198px;
+}
+
+.economictimes img {
+    margin-top: 39px;
+    width: 198px;
+    height: 18px;
+}
+
+.inc42 {
+    width: 76.17px;
+}
+
+.inc42 img {
+    margin-top: 36px;
+    width: 76.17px;
+    height: 23.73px;
+}
+
+.livemint {
+    width: 102px;
+}
+
+.livemint img {
+    margin-top: 32px;
+    width: 102px;
+    height: 25px;
+}
+
+
+/* 2nd Page - Instant Loan Offer Page */
+
+.instant-loan-offer-page {
+    max-width: 1550px;
+    height: 673px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, #DFF5F4, #DFF5F4);
+}
+
+.instant-loan-offer-page .header-text {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+    top: 80px;
+}
+
+.instant-loan-offer-page .header-text p {
+    color: #565660;
+    font-size: clamp(14px, 4vw, 22px);
+    text-align: center;
+}
+
+.instant-loan-offer-page .header-text h2 {
+    color: #06051F;
+    font-size: clamp(30px, 5vw, 48px);
+    font-family: "PaulGrotesk-Bold-Trail";
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.steps {
+    cursor: grab;
+    width: 1100px;
+    /* border: 3px solid red; */
+    min-height: 404px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+}
+
+.step-boxes {
+    width: 28%;
+    height: 400px;
+    /* border: 2px solid black; */
+}
+
+.main-img {
+    width: 90%;
+    height: 50%;
+}
+
+.text-1 {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-size: clamp(14px, 2vw, 17px);
+    color: #1CA0F2;
+    font-family: "PaulGrotesk-Bold-Trail";
+}
+
+.text-2 {
+    font-size: clamp(17px, 2vw, 22px);
+    color: #000000;
+    font-family: "PaulGrotesk-Bold-Trail";
+    margin-left: 8px;
+}
+
+.text-3 {
+    font-size: 18px;
+    color: #565660;
+    font-family: "PaulGrotesk-Regular-Trail";
+    margin-bottom: 17px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+
+/* Instant Loan Offer Page ends here */
+
+
+/* Stats Box */
+
+.stats-box {
+    height: 162px;
+    margin: 0 auto;
+}
+
+.stats-container {
+    max-width: 650px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    transform: translateY(40px);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats {
+    width: 130px;
+    height: 100px;
+}
+
+.stats p {
+    font-size: clamp(12px, 5vw, 15px);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #565660;
+}
+
+.stats h2 {
+    font-size: clamp(34px, 5vw, 48px);
+    color: #06051F;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.stats h2 span {
+    font-size: clamp(20px, 5vw, 25px);
+}
+
+
+/* Video Page */
+
+.video-page {
+    max-width: 1550px;
+    height: 593px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #06051F;
+}
+
+.video-page #header-text-1 {
+    width: 79%;
+    height: 100px;
+    position: relative;
+    top: 80px;
+    margin: auto;
+}
+
+#header-text-1 h2 {
+    text-align: center;
+    font-family: "PaulGrotesk-Bold-Trail";
+    font-size: clamp(30px, 5vw, 48px);
+    color: #ffffff
+}
+
+#header-text-1 p {
+    text-align: center;
+    font-family: "PaulGrotesk-Regular-Trail";
+    font-size: clamp(17px, 4vw, 22px);
+    color: #C8C8CE;
+}
+
+.video-image {
+    width: clamp(400px, 75%, 700px);
+    background-image: url(images/img-video.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 520px;
+    padding-top: 100px;
+    margin: 0 auto;
+    transform: translateY(120px);
+}

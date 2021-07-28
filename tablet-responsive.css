@@ -1,0 +1,179 @@
+/* Media Queries - Tablet Design */
+
+@media all and (max-width:1110px) {
+    /* Header */
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #443EFF;
+        display: block;
+        padding: 60px 0;
+        text-align: center;
+        z-index: 11;
+        color: #fff;
+        transition: all 0.4s ease;
+    }
+    nav ul.active {
+        left: 0;
+    }
+    nav ul li {
+        margin-top: 60px;
+        color: #fff;
+        font-size: 30px;
+        transition: all 0.3s ease;
+    }
+    nav ul li:hover {
+        text-decoration: underline;
+    }
+    .icon {
+        display: block;
+    }
+    nav button {
+        display: block;
+        position: absolute;
+        right: 10%;
+        top: 2.75%;
+    }
+    /* Header ends here */
+    .lf-logo-box img {
+        width: 126px;
+        height: 27px;
+    }
+    /* Video Page */
+    .video-page {
+        height: 520px;
+    }
+    /* Video Page ends here */
+    /* Home Page */
+    .home-container {
+        height: 600px;
+    }
+    .home-container .header-text {
+        width: 75%;
+        border: 3px solid black;
+        position: relative;
+        margin: 0 auto;
+        top: 40px;
+        text-align: center;
+    }
+    .header-text h1 {
+        margin-top: 10px;
+        line-height: 35px;
+    }
+    .features-box {
+        position: relative;
+        top: 25px;
+        width: min(500px, 75%);
+        margin: 0 auto;
+        box-shadow: 0px 0px 1px rgba(130, 136, 148, 0.26), 0px 2px 4px rgba(130, 136, 148, 0.33);
+    }
+    .loan-offer-button {
+        display: none;
+    }
+    .leapfinance-girl-image {
+        display: none;
+    }
+    .lf-girl-img-resp {
+        width: 55%;
+        height: 300px;
+        display: block;
+        border: 3px solid black;
+        margin: 0 auto;
+    }
+    .lf-girl-img-resp img {
+        width: 100%;
+        height: 100%;
+    }
+    /* Home Page ends here */
+    /* Future Designer Page */
+    /* Future Designer Page ends here */
+    /* FAQ Section */
+    .question-grid-container {
+        width: 80%;
+    }
+    .question-grid-container .left-pane {
+        width: 100%;
+        margin-left: 0 auto;
+    }
+    .question-grid-container .right-pane {
+        display: none;
+    }
+    .question-grid-container .contentBx {
+        width: 100%;
+    }
+    .question-grid-container .contentBx .questions {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .question-grid-container .contentBx .answers {
+        width: 100%;
+        font-size: 18px;
+    }
+    /* Contact-Box */
+    #ask-a-specialist-box {
+        flex-direction: column;
+        height: 300px;
+    }
+    #left-box {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #left-box p {
+        font-size: 15px;
+    }
+    #right-box {
+        width: 80%;
+        margin: 0 auto;
+        transform: translateY(-28px);
+    }
+    #right-box hr {
+        display: none;
+    }
+    #mail {
+        background-color: #F5F7F9;
+        border-radius: 6px;
+        height: 55px;
+    }
+    #mail img {
+        margin-left: 2%;
+    }
+    #mail p {
+        display: block;
+        color: #443EFF;
+        font-size: 14px;
+    }
+    .mail-txt-bx a {
+        font-size: 14px;
+    }
+    .mail-txt-bx p {
+        transform: translateY(5px);
+    }
+    #contact-number {
+        background-color: #F5F7F9;
+        transform: translateY(-10px);
+        border-radius: 6px;
+        height: 55px;
+    }
+    #contact-number img {
+        margin-left: 2%;
+    }
+    #contact-number p {
+        display: block;
+        color: #443EFF;
+        font-size: 14px;
+    }
+    .cn-txt-bx a {
+        font-size: 14px;
+    }
+    .cn-txt-bx p {
+        transform: translateY(5px);
+        margin-bottom: 5px;
+    }
+    /* Contact-Box ends here*/
+    /* FAQ Section ends here */
+}
