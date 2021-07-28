@@ -1,2 +1,3 @@
-# banking-app-design
-A banking app design recreated using HTML and CSS
+# Banking App Design
+A banking application interface recreated using HTML and CSS
+![](banking-app.png)
